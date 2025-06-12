@@ -1,8 +1,8 @@
 import { ExperienceJobs } from "app/components/jobs";
 
 export const metadata = {
-  title: "Blog",
-  description: "Read my blog.",
+  title: "Experiences",
+  description: "Places I've been and what I did there.",
 };
 
 export default function Page() {

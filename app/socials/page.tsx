@@ -16,8 +16,8 @@ function ArrowIcon() {
 }
 
 export const metadata = {
-  title: "Redes Sociais",
-  description: "Conecte-se comigo.",
+  title: "Socials",
+  description: "Personal and Professional Social Links",
 };
 
 export default function Page() {

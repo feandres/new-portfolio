@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Habilidades Técnicas",
-  description: "Minhas competências técnicas e ferramentas dominadas.",
+  title: "Skills",
+  description: "Technical Skills.",
 };
 
 export default function Page() {

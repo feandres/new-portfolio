@@ -1,8 +1,8 @@
 import { Projects } from "app/components/projects";
 
 export const metadata = {
-  title: "Blog",
-  description: "Read my blog.",
+  title: "Projects",
+  description: "See what I've done and what I'm doing.",
 };
 
 export default function Page() {

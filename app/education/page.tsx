@@ -1,12 +1,12 @@
 export const metadata = {
-  title: "Formação Acadêmica",
-  description: "Minha trajetória educacional.",
+  title: "Education",
+  description: "Academic Trail.",
 };
 
 export default function Page() {
   const educationData = [
     {
-      course: "Bacharelado em Ciências da Computação",
+      course: "Bachelor in Computer Science",
       institution: "Universidade Federal do Maranhão",
       period: "2020 - Present",
       description:
