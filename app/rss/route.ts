@@ -1,10 +1,8 @@
 import { baseUrl } from "app/sitemap";
 import { getBlogPosts } from "app/blog/utils";
-import { getJobs } from "app/experiences/utils";
 
 export async function GET() {
   let allBlogs = await getBlogPosts();
-  let allJobs = await getJobs();
 
   const itemsXml = allBlogs
     .sort((a, b) => {
