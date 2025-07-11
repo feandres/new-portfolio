@@ -6,20 +6,20 @@ export const metadata = {
 export default function Page() {
   const skillsData = [
     {
-      category: "Linguagens de Programação",
-      skills: "JavaScript, TypeScript, PHP, Java",
+      category: "Programming Languages",
+      skills: ["Java, TS/JS, PHP, Java, Python"],
     },
     {
-      category: "Frameworks e Bibliotecas",
-      skills: "React, Next.js, Node.js, NestJS, Express, Laravel",
+      category: "Frameworks and Libraries",
+      skills: ["Laravel, Node.js, NestJS, Next.js, Spring Boot"],
     },
     {
-      category: "Ferramentas e Tecnologias",
-      skills: "Git, Docker, PostgreSQL, MongoDB, MariaDB",
+      category: "Tools and Technologies",
+      skills: ["Git, Docker, Docker Compose, PostgreSQL, MongoDB, MariaDB"],
     },
     {
-      category: "Outras Competências",
-      skills: "REST APIs, RabbitMQ, DDD, SOLID, GraphQL, CI/CD, Agile",
+      category: "Other Skills",
+      skills: ["REST APIs, RabbitMQ, DDD, SOLID, GraphQL, CI/CD, Agile"],
     },
   ];
 

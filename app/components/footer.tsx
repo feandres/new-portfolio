@@ -35,7 +35,7 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/feandres"
+            href="https://www.linkedin.com/in/feandres50/"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">linkedin</p>
@@ -44,8 +44,6 @@ export default function Footer() {
         <li>
           <a
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
-            rel="noopener noreferrer"
-            target="_blank"
             href="https://github.com/feandres/new-portfolio"
           >
             <ArrowIcon />
@@ -57,7 +55,7 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/feandres"
+            href="/files/FelipeAndres.pdf"
           >
             <ArrowIcon />
             <p className="ml-2 h-7">download resume</p>

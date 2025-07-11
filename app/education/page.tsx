@@ -8,9 +8,9 @@ export default function Page() {
     {
       course: "Bachelor in Computer Science",
       institution: "Universidade Federal do Maranhão",
-      period: "2020 - Present",
+      period: "June, 2019 - December, 2025",
       description:
-        "Formação completa em desenvolvimento de software, algoritmos, estruturas de dados e engenharia de software.",
+        "Relevant Fields: Algorithms, Data Structures, Software Architecture, Databases, Object-Oriented Programming, Software Engineering",
     },
   ];
 
@@ -33,9 +33,12 @@ export default function Page() {
               </span>
             </div>
 
-            <p className="text-neutral-600 dark:text-neutral-400 mb-3">
+            <a
+              href="https://portalpadrao.ufma.br/"
+              className="text-neutral-600 dark:text-neutral-400 mb-3"
+            >
               {education.institution}
-            </p>
+            </a>
 
             <p className="text-neutral-800 dark:text-neutral-200">
               {education.description}

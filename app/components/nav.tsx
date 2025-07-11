@@ -19,9 +19,6 @@ const navItems = {
   "/socials": {
     name: "socials",
   },
-  "/resume": {
-    name: "resume",
-  },
 };
 
 export function Navbar() {

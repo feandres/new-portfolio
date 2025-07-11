@@ -42,7 +42,7 @@ export default function Page() {
               className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/feandres"
+              href="https://www.linkedin.com/in/feandres50/"
             >
               <ArrowIcon />
               <p className="ml-2 h-7">linkedin</p>
@@ -53,7 +53,7 @@ export default function Page() {
               className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/feandres/new-portfolio"
+              href="https://www.instagram.com/feandres_/"
             >
               <ArrowIcon />
               <p className="ml-2 h-7">instagram</p>
@@ -64,7 +64,7 @@ export default function Page() {
               className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/feandres"
+              href="https://open.spotify.com/user/felpsvasc?si=JFeRPLusRcSQemyQPRxVNg"
             >
               <ArrowIcon />
               <p className="ml-2 h-7">spotify</p>

@@ -1,0 +1,35 @@
+---
+title: "Dynamic QR Code Generator Web App"
+publishedAt: "2024-06-01"
+summary: "A full-stack web application that allows users to generate and manage dynamic QR codes with customizable redirection URLs and usage tracking."
+---
+
+This project is a **Dynamic QR Code Generator**, a web platform designed to create, manage, and monitor QR codes that redirect to customizable URLs. The solution was built with a strong focus on usability, performance, and scalability using **React**, **Node.js**, and **Express**.
+
+## Features
+
+- **Dynamic QR Code Generation**: Users can generate QR codes linked to modifiable URLs without changing the QR itself.
+- **Link Management**: Full control over destination URLs, expiration dates, and access rules.
+- **Analytics Dashboard**: View usage statistics including scan counts, locations, and timestamps.
+- **User Authentication**: Secure login system with token-based sessions to manage personal QR code libraries.
+
+## Technical Details
+
+- **Frontend**: Developed with React and Tailwind CSS to ensure a clean, responsive UI across devices.
+- **Backend**: Built with Node.js and Express, with routes for QR generation, URL redirection, and analytics logging.
+- **Database**: MongoDB used for storing user data, QR metadata, and access logs.
+- **QR Code Engine**: Integrated `qrcode` and `shortid` libraries to generate and manage unique codes and short URLs.
+- **Deployment**: Containerized with Docker and deployed using Railway for seamless CI/CD.
+
+## Challenges and Learnings
+
+A key challenge was designing an efficient and secure redirection mechanism that logs access data without impacting latency. I implemented middleware to asynchronously log scan events, ensuring redirection remained fast. I also enforced best practices in API design, securing routes with JWT authentication and sanitizing inputs to prevent injection attacks.
+
+This project strengthened my **full-stack engineering skills**, particularly in designing secure REST APIs, managing stateful frontends, and optimizing for performance and scalability.
+
+## Future Improvements
+
+- Role-based access for teams managing multiple QR campaigns.
+- Support for A/B testing of redirection URLs.
+- Exportable analytics reports in CSV/PDF format.
+- Integration with external marketing tools via webhook.
